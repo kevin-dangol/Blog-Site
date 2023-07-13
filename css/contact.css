@@ -1,0 +1,45 @@
+.contact{
+    display: flex;
+    background: linear-gradient(to right, rgba(255, 255, 255, 0.349) 0, rgba(255, 255, 255, 1) 700px, rgba(255, 255, 255, 1) 290px), url('../img/contact.jpg') no-repeat;
+    background-size: 500px;
+    height: 50vh;
+    margin-top: 20px;
+    padding: 60px;
+    justify-content: space-evenly;
+    border-radius: 30px;
+}
+
+.ctleft{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ctleft img{
+    height: 250;
+}
+
+.ctright{
+    display: flex;
+    text-align: left;
+    padding-left: 400px;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.ctright h1{
+    font-size: 50px;
+}
+
+.ccontent{
+    height: 60vh;
+    padding: 13px;
+}
+
+.cbox input, textarea{
+    width: 35vw;
+    padding: 10px 20px;
+    margin: 10px 0px;
+    border: 1;
+    border-radius: 6px;
+}

@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navi{
+    font-family: var(--font1);
+    height: 6vh;
+    display: flex;
+    align-items: center;
+}
+
+.nleft{
+    display: flex;
+    font-size: 30;
+    align-items: center;
+    margin: 10;
+}
+
+.nleft img{
+    height: 30px;
+}
+
+.nright{
+    display: flex;
+    margin: 450px;
+}
+
+.nright ul{
+    display: flex;
+    align-items: center;
+}
+
+.nright ul li{
+    list-style: none;
+    margin: 0 7px;
+    font-family: var(--font2);
+}
+
+.nright ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    transition: 0.3s ease-in-out;
+}
+
+.nright ul li a:hover{
+    text-decoration: none;
+    color: rgb(226, 170, 17);
+    font-size: 16px;
+}
+
+.blogs{
+    padding: 40px;
+}
+
+.content{
+    display: flex;
+    /*background-color: rgba(0, 174, 255, 0.089);*/
+    background: linear-gradient(to right, rgba(255, 255, 255, 0.349) 0, rgba(255, 255, 255, 1) 700px, rgba(255, 255, 255, 1) 290px), url('../img/backgroud.jpg') no-repeat;
+    background-size: 700px;
+    height: 50vh;
+    margin-top: 20px;
+    padding: 60px;
+    justify-content: space-evenly;
+    border-radius: 30px;
+}
+
+.cleft{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cleft img{
+    height: 250;
+}
+
+.cright{
+    display: flex;
+    text-align: left;
+    padding-left: 400px;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.cright h1{
+    font-size: 50px;
+}
+
+main{
+    /*background-color: rgba(137, 43, 226, 0.055);*/
+    height: 195vh;
+    padding-top: 20px;
+}
+
+.main-blogs{
+    background-color: rgba(245, 245, 220, 0.336);
+    height:  180vh;
+}
+
+.main-blog{
+    display: flex;
+    padding: 20px;
+    font-size: 20px;
+}
+
+.main-blogwriter{
+    padding-top: 20px;
+}
+
+.main-blogwriter:hover{
+    transition: 0.3s ease-in-out;
+    text-decoration: none;
+    color: rgb(226, 170, 17);
+    font-size: 23px;
+}
+
+.main-blogimg{
+    display: flex;
+    align-items: center;
+}
+
+.main-blogimg img{
+    height: 200px;
+}
+
+.main-blogcont{
+    padding: 28 20px;
+}
+
+.main-blogcont a{
+    color: black;
+    text-decoration: none;
+}
+
+.main-blogcont a:hover{
+    transition: 0.3s ease-in-out;
+    text-decoration: none;
+    color: rgb(226, 170, 17);
+    font-size: 23px;
+}
+
+.footer{
+    background-color: rgb(87, 87, 87);
+    height: 15vh;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.footer p a{
+    text-decoration: none;
+    color: white;
+    font-size: 10px;
+}

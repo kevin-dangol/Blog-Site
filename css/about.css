@@ -1,0 +1,67 @@
+.about{
+    display: flex;
+    background: linear-gradient(to right, rgba(255, 255, 255, 0.349) 0, rgba(255, 255, 255, 1) 700px, rgba(255, 255, 255, 1) 290px), url('../img/contact.jpg') no-repeat;
+    background-size: 500px;
+    height: 50vh;
+    margin-top: 20px;
+    padding: 60px;
+    justify-content: space-evenly;
+    border-radius: 30px;
+}
+
+.aleft{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.aleft img{
+    height: 250;
+}
+
+.aright{
+    display: flex;
+    text-align: left;
+    padding-left: 400px;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.aright h1{
+    font-size: 50px;
+}
+
+.acontent{
+    height: 80vh;
+    padding: 13px;
+}
+
+.acontent .top{
+    display: flex;
+}
+
+.acontent .mid{
+    display: flex;
+    padding: 30px;
+}
+
+.asite{
+    margin-top: 20px;
+}
+
+.asocials{
+    margin-top: 20px;
+}
+
+.asocials .mid img{
+    height: 50px;
+    padding: 10px;
+}
+
+.asocials .mid img:hover{
+    transition: 0.3s ease-in-out;
+    height: 55px;
+    padding: 10px;
+    background-color: rgba(121, 121, 121, 0.158);
+    border-radius: 60px;
+}
